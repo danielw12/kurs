@@ -1,0 +1,70 @@
+body {
+    margin: 0; 
+}
+
+#menu {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+nav > ul {
+    margin: 0;
+}
+.menu-item {
+    font-size: 32px;
+    display: inline-block;
+    padding: 25px;
+}
+
+.menu-item > a {
+    text-decoration: none;
+    color: white;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header > img {
+    width: 100%;
+}
+
+
+#main-header-text {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 0;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 700;
+        
+}
+
+article {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 17px;
+        
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+footer > address > a {
+    text-decoration: none;
+    color: white;
+}
+footer > address {
+    padding: 15px;
+}
