@@ -7,7 +7,7 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/dan19@o2.pl" method="post">
+    <form action="https://formspree.io/dan19@o2.pl" method="post" id="cityform">
         <label for="imie"></label>Imię:<br/>
         <input type="text" name="imie" id="imie"><br/>
         
@@ -20,14 +20,14 @@
         <label for="telefon"></label>Numer telefonu:<br/>
         <input type="number" name="telefon" id="telefon"><br/><br/>
         
-        <label for="citylist"></label>Wybór miasta:<br/>
+        Wybór miasta:<br/>
         <select name="citylist" id="miasta" form="cityform">
             <option value="gdansk">Gdańsk</option>
             <option value="krakow">Kraków</option>
             <option value="warsawa">Warszawa</option>
         </select><br/><br/>
         
-        <label for="gender"></label>Płeć:<br/>
+        Płeć:<br/>
         <input type="radio" name="gender" value="male" checked> Male<br/>
         <input type="radio" name="gender" value="female"> Female<br/><br/>
         
