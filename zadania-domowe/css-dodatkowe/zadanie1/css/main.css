@@ -1,0 +1,33 @@
+.squares {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+#square1 {
+    background-color: orange;
+}
+
+#square2 {
+    background-color: green;
+}
+
+#square3 {
+    background-color: pink;
+}
+
+#square4 {
+    background-color: blue;
+}
+
+#header {
+    text-align: center;
+    position: relative;
+}
+
+#squarecontainer {
+    margin: auto;
+    position: absolute;
+    left: 27%;
+}
