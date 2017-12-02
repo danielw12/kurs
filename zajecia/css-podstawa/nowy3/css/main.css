@@ -1,0 +1,31 @@
+#p1 {
+    background-color: aqua;
+    display: block;
+}
+
+#p2 {
+    background-color: hotpink;
+    display: block;
+}
+
+#p3,
+#p4 {
+    display: inline;
+}
+
+#p3 {
+    background-color: yellow;
+}
+
+#p4 {
+    background-color: purple;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 1px dotted red;
+    display: inline-block;
+    margin: 10px;
+    background-color: beige;
+}
