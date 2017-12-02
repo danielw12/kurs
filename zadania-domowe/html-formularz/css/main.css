@@ -5,33 +5,16 @@ form {
     margin: 10px;
     padding: 20px;
 }
-input:focus {
-    background-color: #4e708c;
-}
-
-input {
+input, textarea, select {
     background-color: #2b4a64;
     border: #ffffff;
 }
 
-textarea:focus {
+input:focus, textarea:focus, select:focus {
     background-color: #4e708c;
-}
-
-textarea {
-    background-color: #2b4a64;
     border: #ffffff;
-}
-
-input[type=submit] {
-    background-color: #1ac056;
 }
 
 select {
-    background-color: #2b4a64;
-    border: white;
-}
-
-select:focus {
-    background-color: #4e708c;
+    color: white;
 }
