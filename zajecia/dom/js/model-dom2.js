@@ -10,3 +10,15 @@ console.log(pierwszyDiv.childNodes);
 console.log(pierwszyDiv.children);
 
 console.log(pierwszyDiv.firstChild); 
+
+var pierwszyDivChild = pierwszyDiv.children[1];
+console.log(pierwszyDivChild.nextElementSibling);
+
+var childNodesDiva = pierwszyDiv.childNodes;
+
+childNodesDiva.forEach(function(element) {
+//    console.log(element.nodeType);
+    if(element.nodeType == 1) {
+        console.log(element)
+    }
+});
