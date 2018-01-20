@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+p#serce1 {
+    font-size: 300px;
+    text-align: center;
+}
+
+#serce {
+    animation-name: bicie;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bicie {
+    0% {
+        transform: scale(1)
+    }
+    25% {
+        transform: scale(2)
+    }
+    50% {
+        transform: scale(1)
+    }
+    75% {
+        transform: scale(2)
+    }
+    100% {
+        transform: scale(1)
+    }
+}

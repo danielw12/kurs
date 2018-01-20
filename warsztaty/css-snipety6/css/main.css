@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body,
+html {
+    height: 100vh;
+    width: 200vh;
+}
+
+div.kolumny {
+    height: 100%;
+    width: 100%;
+    font-size: 0;
+}
+
+div {
+    display: inline-block;
+}
+
+.one {
+    background-color: red;
+    height: 100%;
+    width: 25%;
+    font-size: 16px;
+}
+
+
+
+.two {
+    background-color: blue;
+    height: 100%;
+    width: 25%;
+    font-size: 16px;
+}
+
+.three {
+    background-color: green;
+    height: 100%;
+    width: 25%;
+    font-size: 16px;
+}
+
+.four {
+    background-color: yellow;
+    height: 100%;
+    width: 25%;
+    font-size: 16px;
+}

@@ -1,0 +1,25 @@
+.container-example {
+    height: 300px;
+    background-color: green;
+}
+
+.container-fluid-example {
+    height: 300px;
+    background-color: red;
+}
+
+.element-1 {
+    height: 100px;
+    background-color: antiquewhite;
+}
+
+.element-2 {
+    height: 110px;
+    background-color: salmon;
+}
+
+.element-3 {
+    height: 120px;
+    background-color: blue;
+}
+

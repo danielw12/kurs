@@ -20,3 +20,19 @@ img {
     transform: scale(1.5);
 }
 
+/* Animacja */
+.animation img {
+    animation-name: resize;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes resize {
+    0%, 100% {
+        height: 300px;
+    }
+    
+    50% {
+        height: 50px;
+    }
+}

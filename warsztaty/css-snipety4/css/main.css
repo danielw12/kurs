@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body, html {
+    height: 100%;
+}
+
+.text {
+    height: 1000px;
+    background-color: antiquewhite;
+}
+
+.parallax {
+    background-image: url(https://eloblog.pl/wp-content/uploads/2015/10/Monkey-selfie.jpg);
+}
+
+.parallax1 { background-image: url(http://bi.gazeta.pl/im/a4/58/14/z21332900Q,Koty--koty--wszedzie-koty-.jpg)}
+
+.parallax, .parallax1 {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
