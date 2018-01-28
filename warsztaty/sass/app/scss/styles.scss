@@ -1,0 +1,107 @@
+$form-color: #001d8a;
+$yellow: #ecd407;
+$footer-color: #292929;
+$main-font: 'Open Sans',
+sans-serif;
+
+
+span {
+    color: $yellow;
+}
+
+#button {
+    background-color: $yellow;
+}
+
+body {
+    color: white;
+    font-family: $main-font;
+}
+
+div.background-box {
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+    div.bank {
+        display: inline-block;
+        height: 50px;
+        width: 49%;
+        text-align: center;
+
+        i {
+            color: $yellow;
+
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        i,
+        h1 {
+            display: inline-block;
+
+
+        }
+    }
+
+    div.phone {
+        display: inline-block;
+        width: 49%;
+        text-align: center;
+
+        i,
+        p {
+            display: inline-block;
+        }
+    }
+
+    div.form-holder {
+        width: 400px;
+        margin-top: 20vh;
+
+        div.form-box {
+            background-color: $form-color;
+            padding: 10px;
+
+        }
+    }
+}
+
+footer {
+    background-color: $footer-color;
+    padding: 20px;
+
+    div.box {
+        display: inline-block;
+        margin-left: 30vw;
+        text-align: center;
+
+        div.icon-box {
+            width: 40px;
+            height: 40px;
+            background-color: $yellow;
+            position: relative;
+            margin: 0 auto;
+
+
+            i {
+                color: black;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%)
+            }
+        }
+
+
+    }
+
+    p {
+        text-align: center;
+    }
+}

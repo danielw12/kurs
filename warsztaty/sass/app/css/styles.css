@@ -1,0 +1,64 @@
+span {
+  color: #ecd407; }
+
+#button {
+  background-color: #ecd407; }
+
+body {
+  color: white;
+  font-family: "Open Sans", sans-serif; }
+
+div.background-box {
+  background-image: url(background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%; }
+  div.background-box div.bank {
+    display: inline-block;
+    height: 50px;
+    width: 49%;
+    text-align: center; }
+    div.background-box div.bank i {
+      color: #ecd407; }
+    div.background-box div.bank h1 {
+      font-size: 30px; }
+    div.background-box div.bank i,
+    div.background-box div.bank h1 {
+      display: inline-block; }
+  div.background-box div.phone {
+    display: inline-block;
+    width: 49%;
+    text-align: center; }
+    div.background-box div.phone i,
+    div.background-box div.phone p {
+      display: inline-block; }
+  div.background-box div.form-holder {
+    width: 400px;
+    margin-top: 20vh; }
+    div.background-box div.form-holder div.form-box {
+      background-color: #001d8a;
+      padding: 10px; }
+
+footer {
+  background-color: #292929;
+  padding: 20px; }
+  footer div.box {
+    display: inline-block;
+    margin-left: 30vw;
+    text-align: center; }
+    footer div.box div.icon-box {
+      width: 40px;
+      height: 40px;
+      background-color: #ecd407;
+      position: relative;
+      margin: 0 auto; }
+      footer div.box div.icon-box i {
+        color: black;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+  footer p {
+    text-align: center; }
